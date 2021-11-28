@@ -24,14 +24,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>coreapp-releases</id>
       <name>coreapp-releases</name>
-      <url>http://ec2-18-224-31-177.us-east-2.compute.amazonaws.com:8081/repository/coreapp-releases/</url>
+      <url>http://172.31.0.112:8081/repository/coreapp-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>coreapp-snapshots</id>
       <name>coreapp-snapshots</name>
-      <url>http://ec2-18-224-31-177.us-east-2.compute.amazonaws.com:8081/repository/coreapp-snapshots/</url>
+      <url>http://172.31.0.112:8081/repository/coreapp-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
