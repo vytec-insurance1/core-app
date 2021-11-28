@@ -7,6 +7,7 @@ pipeline {
         stage('prepare') {
             steps {
                // git branch: 'main', url: 'https://github.com/vytec-insurance1/core-app.git'
+                echo 'branch used :: ${branchname}'
                 checkout scm
             }
         }
