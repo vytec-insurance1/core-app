@@ -1,5 +1,8 @@
 pipeline {
     agent { label 'maven-label' }
+      environment {
+        YourTag = 'main'
+    }
     tools {
         maven "M3"
     }
