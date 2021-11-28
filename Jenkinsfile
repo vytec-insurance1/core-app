@@ -9,7 +9,8 @@ pipeline {
         stage('Build') {
             steps {
                 
-                git branch: 'main', url: 'https://github.com/vytec-insurance1/core-app.git'
+               // git branch: 'main', url: 'https://github.com/vytec-insurance1/core-app.git'
+                checkout scm
 
                 sh "mvn -Dmaven.test.failure.ignore=true clean deploy"
 
