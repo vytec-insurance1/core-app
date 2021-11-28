@@ -22,9 +22,9 @@ pipeline {
         }
         stage('prepare') {
             steps {
-                git branch: '${env.YourTag}', url: 'https://github.com/vytec-insurance1/core-app.git'
-                echo 'branch used :: ${env.YourTag}'
-                //checkout scm
+                //git branch: '${env.YourTag}', url: 'https://github.com/vytec-insurance1/core-app.git'
+                echo "branch used :: ${env.YourTag}"
+                checkout scm
             }
         }
         stage('build') {
